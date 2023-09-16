@@ -1,0 +1,55 @@
+.listnav-page {
+    display: none;
+}
+.address-list {
+    display: none;
+}
+.heder-containerr {
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logotip {
+    display: flex;
+    align-items: center;
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logotip-studio {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+}
+.span {
+    color: #2e2f42;
+}
+.open-mobile-menu {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+}
+.open-mobile-menu-icon {
+    stroke: #2f2f37;
+}
+.mobile-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    z-index: 9999;
+}
