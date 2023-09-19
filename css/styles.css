@@ -225,11 +225,12 @@
         /* 150% */
         letter-spacing: 0.32px;
         line-height: 1.5;
-        margin: 0;
-
-
-        
+        margin: 0;     
 }
+
+
+
+
 .list-socials {
         display: flex;
         gap: 24px;
@@ -365,6 +366,11 @@ svg {
         text-align: center;
         margin-bottom: 8px;
 }
+
+
+
+
+
 .section-portfolio {
         padding: 120px 0 120px 0;
 }
