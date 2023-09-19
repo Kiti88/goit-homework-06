@@ -380,6 +380,9 @@ svg {
 }
 .article-txt {
 }
+
+
+
 .container-footer {
         
         display: flex;
@@ -501,6 +504,8 @@ svg {
 .container-form-icon {
         margin-left: 16px;
 }
+
+
 .backdrop{
         position: fixed;
         top: 0;
