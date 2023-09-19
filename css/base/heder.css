@@ -45,6 +45,9 @@
     stroke: #2f2f37;
 }
 .mobile-menu {
+    padding: 72px 24px 40px 16px;
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: fixed;
     left: 0;
     top: 0;
@@ -160,7 +163,7 @@
     width: 16px;
     height: 16px;
 }
-/* @madia screen end (min-width: 768px) { */
+/* @madia screen and (min-width: 768px) { */
     .heder-content {
             border-bottom: 1px solid #e7e9fc;
             box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -290,7 +293,7 @@
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
         .open-mobile-menu {
-            display: none;
+            
         }
     /* } */
         /* @media screen and (min-width: 1158px) { */
@@ -424,6 +427,6 @@
                 }
             
                 .open-mobile-menu {
-                    display: none;
+                    
                 }
             /* } */

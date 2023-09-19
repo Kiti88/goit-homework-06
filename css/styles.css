@@ -160,6 +160,10 @@
 .button:focus {
         background-color: #404BBF;
 }
+
+
+
+
 .section-text {
         padding: 120px 0;
 }
@@ -222,6 +226,9 @@
         letter-spacing: 0.32px;
         line-height: 1.5;
         margin: 0;
+
+
+        
 }
 .list-socials {
         display: flex;

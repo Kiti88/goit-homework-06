@@ -15,14 +15,19 @@
         padding: 0px 15px;
 }
 .wrap {
-    color: var(--WHITE, #FFF);
+    margin-right: auto;
+        margin-left: auto;
+        max-width: 220px;
+        padding: 72px 16px 0 16px;
+        color: var(--WHITE, #FFF);
         text-align: center;
+        margin-bottom: 72;
         font-family: Roboto;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.72px;
+        line-height: 1.11;
+        letter-spacing: 0.02px;
         text-transform: capitalize;
 }
 
@@ -44,7 +49,7 @@
     background-color: #404BBF;
 }
 
-/* @madia screen end (min-width: 768px) { */
+/* @madia screen and (min-width: 768px) { */
 
 .section-button {
     background-color: #2e2f42;
@@ -58,6 +63,7 @@
 }
 
 .wrap {
+    
     width: 496px;
     color: var(--WHITE, #FFF);
     text-align: center;
