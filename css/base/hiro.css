@@ -1,13 +1,16 @@
 .section-button {
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 112px 0;
     margin: auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice11.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+    url(../../images/Dark-bg.jpg);
     max-width: 320px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 .container {
         width: 320px;
@@ -17,10 +20,9 @@
 .wrap {
     margin-right: auto;
         margin-left: auto;
-        max-width: 220px;
+        width: 220px;
         padding: 72px 16px 0 16px;
         color: var(--WHITE, #FFF);
-        text-align: center;
         margin-bottom: 72;
         font-family: Roboto;
         font-size: 36px;
@@ -29,6 +31,7 @@
         line-height: 1.11;
         letter-spacing: 0.02px;
         text-transform: capitalize;
+        display: flex;
 }
 
 .button {
@@ -40,11 +43,9 @@
         background: var(--IRIS, #4D5AE5);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
 .button:hover {
     background-color: #404BBF;
 }
-
 .button:focus {
     background-color: #404BBF;
 }
