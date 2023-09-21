@@ -1,24 +1,18 @@
 .section-button {
-    background-color: #2e2f42;
-    padding: 112px 0;
-    margin: auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../../images/Dark-bg.jpg);
-    max-width: 320px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    letter-spacing: 1.12px;
+        padding-top: 72px;
+        padding-bottom: 72px;
+        text-align: center;
+        background-color: #2E2F42;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../../images/bg-image/people-office-mobile.jpg);
+        max-width: 1440px;
+        margin: 0 auto;        
 }
-.container {
-        width: 320px;
-        padding-left: 16px;
-        padding-right: 16px;
-        margin-left: auto;
-        margin-right: auto;
-}
+
 .wrap {
         margin-right: auto;
         margin-left: auto;
@@ -27,13 +21,21 @@
         color: var(--WHITE, #FFF);
         margin-bottom: 72;
         font-family: Roboto;
+        color: #FFF;
         font-size: 36px;
+        line-height: 1.11;
+        max-width: 217px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+         margin: 0 auto;
         font-style: normal;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02px;
         text-transform: capitalize;
         display: flex;
+
+      
 }
 .button {
         display: inline-flex;
@@ -43,6 +45,8 @@
         border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        color: #ffffff;
+        margin-top: 72px;
 }
 .button:hover {
     background-color: #404BBF;
@@ -50,8 +54,8 @@
 .button:focus {
     background-color: #404BBF;
 }
-/* @madia screen and (min-width: 768px) { */
-.section-button {
+
+/* .section-button {
     background-color: #2e2f42;
     padding: 188px 0;
     margin: auto;
@@ -98,36 +102,34 @@
 }
 .button:focus {
     background-color: #404BBF;
-}
-/* } */
-/* @media screen and (min-width: 1158px) { */
-        .section-button {
-                background-color: #2e2f42;
+} */
+
+                /* background-color: #2e2f42;
                 padding: 188px 0;
                 margin: auto;
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice11.jpg);
                 max-width: 1440px;
                 background-repeat: no-repeat;
                 background-position: center;
-                background-size: cover;
-            }
+                background-size: cover; */
+            /* }
             .wrap {
                 color: var(--white, #FFF);
                 text-align: center;
                 /* Header 1 */
-                font-family: Roboto;
+                /* font-family: Roboto;
                 font-size: 56px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 1.07;
+                line-height: 1.07; */
                 /* 107.143% */
-                letter-spacing: 1.12px;
+                /* letter-spacing: 1.12px;
                 margin: 0 auto;
                 max-width: 496px;
                 margin-bottom: 48px;
-            }
-            .button {
-                background-color: #4D5AE5;
+            } */
+            /* .button { */
+                /* background-color: #4D5AE5;
                 font-family: "Roboto", sans-serif;
                 font-weight: 500;
                 font-size: 16px;
@@ -143,11 +145,10 @@
                 cursor: pointer;
                 margin: 0 auto;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            }
-            .button:hover {
-                background-color: #404BBF;
+            } */
+            /* .button:hover { */
+                /* background-color: #404BBF;
             }
             .button:focus {
                 background-color: #404BBF;
-            }
-    /* } */
+            } */ 
