@@ -1,21 +1,23 @@
 .aside {
+    text-align: center;
     background-color: #F4F4FD;
-    padding: 120px 0;
+    padding: 96px 0;
     max-width: 296px;
+    width: 100%;
 }
 .team {
     color: var(--navyblue, #2E2F42);
     text-transform: capitalize;
-    /* Header 2 */
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
-    /* 111.111% */
     letter-spacing: 0.72px;
     text-align: center;
     line-height: 1.11;
     margin-bottom: 72px;
+    margin-left: 79px;
+    display: flex;
 }
 .item {
     background-color: #FFFFFF;
@@ -31,7 +33,6 @@
 }
 .container-team {
     display: flex;
-    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -40,18 +41,29 @@
     text-align: center;
 }
 .excerpt {
-        font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
+        color: #2e2f42;
+        font-family: Roboto;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;           
+}
+.article-txt {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 .article-txt:hover {
     transform: translateY(0%);
 }
 .list-socials {
-    gap: 24px;
+    display: flex;
     justify-content: center;
+    gap: 24px;
 }
 .item-social {
     width: 40px;
@@ -78,9 +90,9 @@
     width: 16px;
     height: 16px;
     display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 svg {
     fill: var(--social-icon-color);
@@ -96,7 +108,7 @@ svg {
     gap: 24px;
     
     }
-}
+
 /* @madia screen and (min-width: 768px) { */
 
 
