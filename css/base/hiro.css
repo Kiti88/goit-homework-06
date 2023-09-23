@@ -51,82 +51,24 @@
 .button:focus {
     background-color: #404BBF;
 }
-
-/* .section-button {
-    background-color: #2e2f42;
-    padding: 188px 0;
-    margin: auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice11.jpg);
-    max-width: 768px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.wrap { 
-    width: 496px;
-    color: var(--WHITE, #FFF);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.12px;
-}
-.button {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-flex;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin: 0 auto;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button:hover {
-    background-color: #404BBF;
-}
-.button:focus {
-    background-color: #404BBF;
-} */
-
-                /* background-color: #2e2f42;
-                padding: 188px 0;
-                margin: auto;
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice11.jpg);
-                max-width: 1440px;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover; */
-            /* }
+            @media screen and (min-width: 768px) {
+            .section-button {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../../images/peopleoffice11.jpg);
+            }
             .wrap {
-                color: var(--white, #FFF);
-                text-align: center;
-                /* Header 1 */
-                /* font-family: Roboto;
+                width: 496px;
+                margin-left: auto;
+                font-family: Roboto;
                 font-size: 56px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 1.07; */
-                /* 107.143% */
-                /* letter-spacing: 1.12px;
-                margin: 0 auto;
-                max-width: 496px;
-                margin-bottom: 48px;
-            } */
-            /* .button { */
-                /* background-color: #4D5AE5;
+                line-height: 60px;
+                letter-spacing: 1.12px;
+            }
+            .button {
+                background-color: #4D5AE5;
                 font-family: "Roboto", sans-serif;
                 font-weight: 500;
                 font-size: 16px;
@@ -134,18 +76,62 @@
                 letter-spacing: 0.04em;
                 color: #ffffff;
                 cursor: pointer;
-                display: block;
+                display: inline-flex;
                 min-width: 169px;
                 height: 56px;
                 border: none;
                 border-radius: 4px;
                 cursor: pointer;
-                margin: 0 auto;
+                margin: auto;
+                padding: 16px 32px;
+                align-items: flex-start;
+                gap: 10px;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            } */
-            /* .button:hover { */
-                /* background-color: #404BBF;
+            }
+            .button:hover {
+                background-color: #404BBF;
             }
             .button:focus {
                 background-color: #404BBF;
-            } */ 
+            }
+        }
+
+                @media screen and (min-width: 1158px) {
+                    .section-button {
+                            background-color: #2e2f42;
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            text-align: center;
+                            padding-top: 188px;
+                            padding-bottom: 188px;
+                            max-width: 1440px;
+                        }
+                        .wrap {
+                            width: 496px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-bottom: 48px;
+                            max-width: 496px;
+                            font-family: Roboto;
+                            font-size: 56px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 60px;
+                            letter-spacing: 1.12px;
+                            display: flex;     
+                        }
+                        .button {
+                            gap: 10px;
+                            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                            margin-right: auto;
+                            margin-left: auto;
+                            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                        }
+                        .button:hover {
+                            background-color: #404BBF;
+                        }
+                        .button:focus {
+                            background-color: #404BBF;
+                        }
+                }
