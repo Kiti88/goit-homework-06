@@ -100,15 +100,13 @@
 }
 .listnav-menu {
     color: var(--NAVY-BLUE, #2E2F42);
-        /* Header 2 */
-        font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 .more {
     color: var(--OCEAN, #404BBF);
@@ -125,7 +123,6 @@
     font-style: normal;
     font-weight: 400px;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.32px;
 }
 .address-list-link-menu {

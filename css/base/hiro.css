@@ -12,7 +12,6 @@
         max-width: 1440px;
         margin: 0 auto;        
 }
-
 .wrap {
         margin-right: auto;
         margin-left: auto;
@@ -34,8 +33,6 @@
         letter-spacing: 0.02px;
         text-transform: capitalize;
         display: flex;
-
-      
 }
 .button {
         display: inline-flex;
