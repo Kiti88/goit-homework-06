@@ -15,8 +15,7 @@
 .wrap {
         margin-right: auto;
         margin-left: auto;
-        width: 220px;
-        padding: 72px 16px 0 16px;
+        max-width 220px;
         color: var(--WHITE, #FFF);
         margin-bottom: 72;
         font-family: Roboto;
@@ -26,7 +25,6 @@
         max-width: 217px;
         font-weight: 700;
         letter-spacing: 0.02em;
-         margin: 0 auto;
         font-style: normal;
         font-weight: 700;
         line-height: 1.11;
@@ -58,7 +56,7 @@
                     url(../../images/peopleoffice11.jpg);
             }
             .wrap {
-                width: 496px;
+                max-width 496px;
                 margin-left: auto;
                 font-family: Roboto;
                 font-size: 56px;
@@ -108,7 +106,7 @@
                             max-width: 1440px;
                         }
                         .wrap {
-                            width: 496px;
+                            max-width 496px;
                             margin-left: auto;
                             margin-right: auto;
                             margin-bottom: 48px;
