@@ -58,6 +58,7 @@
     vertical-align: middle;
 }
     @media screen and (min-width: 768px) { 
+        }
         .section-text {
             margin-top: 96px;
             padding-left: 16px;
@@ -74,7 +75,7 @@
             flex-direction: row;
             flex-wrap: wrap;
             column-gap: 24px;
-            row-gap: 72px;
+            row-gap: 72px;  
         }
         .preview {
             flex-basis: calc((100% - 24px) / 2);
