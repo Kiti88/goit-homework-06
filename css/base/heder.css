@@ -42,7 +42,7 @@
     line-height: 0;
 }
 .open-mobile-menu-icon {
-    stroke: #2f2f37;
+    
 }
 .mobile-menu {
     padding: 72px 24px 40px 16px;
@@ -55,6 +55,8 @@
     height: 100%;
     background-color: #FFF;
     z-index: 9999;
+    display: flex;
+    flex-direction: column;
 }
 .touch {
     position: absolute;
@@ -121,7 +123,7 @@
     gap: 40px;
 }
 .address-list-menu {
-    margin-top: 168px;
+    margin-top: auto;
     margin-bottom: 48px;
     font-size: 16px;
     font-style: normal;
