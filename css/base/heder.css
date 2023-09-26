@@ -90,13 +90,13 @@
     fill: #ffffff;
 }
 .listnav-page-menu {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 40px;
-    margin: 40;
-    padding: 24px 0;
 }
 .gallery {
     color: #2e2f42;
-   
 }
 .mobile-studio {
     color: #404BBF;
