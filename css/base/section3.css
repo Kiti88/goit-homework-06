@@ -39,12 +39,13 @@
         letter-spacing: 0.02em;
         text-transform: capitalize;           
 }
-.article-txt {
+.article-txt-team {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
-.article-txt:hover {
+.aarticle-txt-team:hover {
     transform: translateY(0%);
 }
 .list-socials {
@@ -74,8 +75,8 @@
     background-color: #404bbf;
 }
 .item-social-icon {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     display: flex;
     justify-content: center;
     align-items: center;

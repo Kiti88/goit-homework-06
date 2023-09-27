@@ -13,7 +13,7 @@
 .container-footer-social {}
 
 .logotip-text {
-    text-align: center;
+    
     
 }
 .footer-txt-social {
@@ -32,8 +32,8 @@
     justify-content: center;
 }
 .item-social-footer {
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-social-footer {
@@ -86,7 +86,8 @@
     gap: 24px;
 }
 .container-form-label {
-    gap: 24px;
+    display: block;
+    margin: 0 auto;
 }
 .container-form-info {
     width: 264px;
@@ -120,7 +121,7 @@
     border-radius: 4px;
     margin: 0 auto;
     padding: 8px 24px;
-    gap: 16px;
+   
     
 }
 .container-form-icon {
