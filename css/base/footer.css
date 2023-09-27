@@ -13,7 +13,6 @@
 .container-footer-social {
     margin: 72px;
 }
-
 .logotip-text {   
 }
 .footer-txt-social {
@@ -24,7 +23,6 @@
     color: #FFFFFF;
     margin-bottom: 16px;
     text-align: center;
-    
 }
 .list-socials-footer {
     display: flex;
@@ -70,7 +68,6 @@
     margin-bottom: 16px;
 }
 .container-form {
-    
     margin: 72px;
 }
 .container-form-text {
@@ -122,8 +119,6 @@
     border-radius: 4px;
     margin: 0 auto;
     padding: 8px 24px;
-   
-    
 }
 .container-form-icon {
     margin-left: 16px;
