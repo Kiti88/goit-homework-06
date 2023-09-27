@@ -28,7 +28,7 @@
 .article-title {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -68,6 +68,7 @@
             row-gap: 72px;  
         }
         .preview {  
+            width: 356px;
         }
         .section-text-icon {
             display: none;

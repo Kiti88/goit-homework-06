@@ -10,11 +10,11 @@
     letter-spacing: 0.32px;
     max-width: 264px;
 }
-.container-footer-social {}
+.container-footer-social {
+    margin: 72px;
+}
 
-.logotip-text {
-    
-    
+.logotip-text {   
 }
 .footer-txt-social {
     font-weight: 500;
@@ -24,7 +24,7 @@
     color: #FFFFFF;
     margin-bottom: 16px;
     text-align: center;
-    margin-top: 72px;
+    
 }
 .list-socials-footer {
     display: flex;
@@ -70,11 +70,11 @@
     margin-bottom: 16px;
 }
 .container-form {
-    margin-left: auto;
+    
+    margin: 72px;
 }
 .container-form-text {
     margin-bottom: 16px;
-    margin-top: 72px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -84,6 +84,7 @@
 }
 .container-form-group {
     gap: 24px;
+    display: flex;
 }
 .container-form-label {
     display: block;

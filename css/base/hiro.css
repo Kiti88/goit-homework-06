@@ -23,7 +23,7 @@ screen and (min-resolution: 2dppx) {
 .wrap {
         margin-right: auto;
         margin-left: auto;
-        max-width 220px;
+        max-width: 220px;
         color: var(--WHITE, #FFF);
         margin-bottom: 72;
         font-family: Roboto;
@@ -67,7 +67,7 @@ screen and (min-resolution: 2dppx) {
                     url(../../images/peopleoffice11.jpg);
             }
             .wrap {
-                max-width 496px;
+                max-width: 496px;
                 margin-left: auto;
                 font-family: Roboto;
                 font-size: 56px;
