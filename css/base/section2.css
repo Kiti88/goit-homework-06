@@ -33,11 +33,13 @@
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize; 
-    text-align: center;
 }
 .desc {
     line-height: 1.2;
     margin-bottom: 8px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
 }
 .article-txt {
     align-self: stretch;
