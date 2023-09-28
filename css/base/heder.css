@@ -23,7 +23,7 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
     display: flex;
-    justify-content: center;
+    
 }
 .logotip-studio {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -208,7 +208,7 @@ transform: translateY(0);
             letter-spacing: 0.03em;
             text-transform: uppercase;
             margin-right: 76px;
-            margin-left: 16px;
+            
         }
         .span {
             color: #2e2f42;

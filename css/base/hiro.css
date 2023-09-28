@@ -65,6 +65,7 @@ screen and (min-resolution: 2dppx) {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                         rgba(46, 47, 66, 0.7)),
                     url(../../images/peopleoffice11.jpg);
+                    padding: 112px 0;
             }
             .wrap {
                 max-width: 496px;
@@ -75,6 +76,7 @@ screen and (min-resolution: 2dppx) {
                 font-weight: 700;
                 line-height: 60px;
                 letter-spacing: 1.12px;
+                margin-bottom: 48px;
             }
             .button {
                 background-color: #4D5AE5;

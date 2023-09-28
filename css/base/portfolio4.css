@@ -21,7 +21,7 @@
     text-transform: capitalize;
 }
 .article-txt {
-    font-weight: 500;
+    
 }
 
 .list-portfolio {
@@ -89,7 +89,7 @@
             gap: 72px 24px;
         }
         .item-portfolio {
-            text-align: center;
+           
                 background-color: #fff;
                 border-radius: 0px 0px 4px 4px;
                 width: calc((100% - 48px) / 2);

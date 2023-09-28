@@ -27,6 +27,7 @@
 .list-socials-footer {
     display: flex;
     gap: 16px;
+    justify-content: center;
 }
 .item-social-footer {
     width: 40px;
@@ -87,7 +88,7 @@
     margin-bottom: 16px;
 }
 .container-form-info {
-    width: 100%;
+    width: 264;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -317,17 +318,24 @@
                 flex-direction: row;
                 flex-wrap: wrap;
                 gap: 72px 24px;
-                max-width: 550px;
-                align-items: start;
+                
+                align-items: baseline;
             }
             .footer-txt {
                 max-width: 264px;
             }
             .container-footer-social {
                 display: block;
+                margin-top: 0;
             }
             .footer-txt-social {
                 text-align: left;
+            }
+            .container-form-group {
+                display: flex;
+            }
+            .container-form {
+                margin-top: 0;
             }
             .container-form-text {
                 display: flex;

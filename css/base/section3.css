@@ -44,7 +44,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-weight: 500;
+    
 }
 .aarticle-txt-team:hover {
     transform: translateY(0%);
@@ -75,9 +75,9 @@
 .list-social:focus {
     background-color: #404bbf;
 }
-.item-social-icon {
-    width: 16px;
-    height: 16px;
+.item-social-icon-aside {
+    width: 24px;
+    height: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@
 svg {
     fill: var(--social-icon-color);
 }
-.item-social-icon:focus {
+.item-social-icon-aside:focus {
     background-color: #404bbf;
     fill: css #f4f4fd;
 }
@@ -104,7 +104,7 @@ svg {
 
         @media screen and (min-width: 768px) {
             .aside {
-                max-width: 768px;
+                
                 text-align: center;
             }
             .team {
