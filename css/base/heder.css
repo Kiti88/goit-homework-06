@@ -12,8 +12,7 @@
     justify-content: space-between;
 }
 .logotip {
-    display: flex;
-    align-items: center;
+    
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
@@ -23,7 +22,7 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
     display: flex;
-    
+    justify-content: center;
 }
 .logotip-studio {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -208,7 +207,8 @@ transform: translateY(0);
             letter-spacing: 0.03em;
             text-transform: uppercase;
             margin-right: 76px;
-            
+            display: flex;
+            align-items: center;
         }
         .span {
             color: #2e2f42;

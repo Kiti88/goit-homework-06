@@ -16,7 +16,7 @@
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
     .section-button {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../../images/mobile/Dark-bg1-2@2.jpg);
     }
 }
