@@ -3,7 +3,7 @@ body {
     color: var(--prymary-text-color);
     background-color: var(--prymary-bg-color);
     font-size: 16px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 h1,
 h2,
